@@ -1,0 +1,21 @@
+{
+  "name": "sarvam-ai-mail-api",
+  "version": "1.0.0",
+  "description": "AI and Email API using Sarvam AI and Nodemailer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "sarvamai": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
